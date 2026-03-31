@@ -30,9 +30,29 @@ We use **SegFormer**, a transformer-based semantic segmentation model designed f
 
 ---
 
-## 📂 Dataset Structure
-
-
-/>
 
 <img width="1000" height="600" alt="download" src="https://github.com/user-attachments/assets/a5f24873-fb12-4371-986c-a9d615499df0" />
+
+2️⃣ Install Dependencies
+pip install numpy matplotlib opencv-python
+3️⃣ Run Training / Visualization
+python train.py
+python plot_metrics.py
+4️⃣ Run Demo Visualization
+python demo_segmentation.py
+📌 Key Highlights
+✅ Transformer-based segmentation (state-of-the-art approach)
+✅ Strong convergence and stable training
+✅ High mIoU (0.94)
+✅ Realistic class-wise performance
+✅ Clean and interpretable visualizations
+🔮 Future Improvements
+Improve performance on low-IoU classes (Logs, Rocks)
+Add real-time segmentation support
+Deploy as a web-based application
+Integrate with autonomous navigation system
+
+⭐ Acknowledgements
+Kaggle for GPU support
+Open-source community for segmentation frameworks
+Research advancements in transformer-based vision modeels
